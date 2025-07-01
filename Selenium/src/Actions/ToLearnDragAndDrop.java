@@ -24,7 +24,7 @@ public class ToLearnDragAndDrop {
 		  WebElement trash = driver.findElement(By.id("trash"));
 		  Actions act=new Actions(driver);
 		  act.dragAndDrop(img1,trash).perform();
-		  act.dragAndDrop(img1,trash).perform();
+		 
 		  
 		  
 	}
